@@ -28,7 +28,7 @@ Make sure you have the following installed:
 ## Configuration
 
 Before running the application, you need to obtain a Yandex Maps API key. 
-You can get one by following the instructions on the Yandex Maps API documentation
+You can get one by following the instructions on the Yandex Maps API documentation:
 https://yandex.com/dev/maps/jsapi/doc/2.1/quick-start/index.html
 
 Once you have the API key, create a file named `api.py` in the project directory and define your key like this:
@@ -94,7 +94,7 @@ The search results will be saved in a file named `result.json` in the project di
 
 ## Workspace
 
-For more details about the application, check out the workspace
+For more details about the application, check out the workspace:
 https://web.postman.co/workspace/yandex_search_app~5d85f047-a7be-48cd-86fe-6c1766f6716c/overview
 
 
