@@ -3,11 +3,11 @@
     "properties": {
         "ResponseMetaData": {
             "SearchResponse": {
-                "found": 88,
+                "found": 19,
                 "display": "multiple"
             },
             "SearchRequest": {
-                "request": "Автосервис,Москва,ул.Смоленская",
+                "request": "Барашки",
                 "skip": 0,
                 "results": 10,
                 "boundedBy": [
@@ -29,306 +29,79 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113.485056,
-                    52.050596
+                    30.320545,
+                    59.92651
                 ]
             },
             "properties": {
-                "name": "Автосервис Джамос",
-                "description": "Смоленская ул., 129АС1, Чита, Россия",
+                "name": "Barashki",
+                "description": "ул. Ефимова, 2, Санкт-Петербург, Россия",
                 "boundedBy": [
                     [
-                        113.446189,
-                        52.022359
+                        30.316883,
+                        59.924361
                     ],
                     [
-                        113.540009,
-                        52.140113
+                        30.325094,
+                        59.928483
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=98162985623",
+                "uri": "ymapsbm1://org?oid=1285485343",
                 "CompanyMetaData": {
-                    "id": "98162985623",
-                    "name": "Автосервис Джамос",
-                    "address": "Забайкальский край, Чита, Смоленская улица, 129АС1",
+                    "id": "1285485343",
+                    "name": "Barashki",
+                    "address": "Санкт-Петербург, улица Ефимова, 2",
+                    "url": "http://barashkispb.ru/",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (924) 501-30-00"
+                            "formatted": "+7 (812) 443-83-70"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
+                            "class": "restaurants",
+                            "name": "Ресторан"
                         },
                         {
-                            "class": "auto",
-                            "name": "Магазин автозапчастей и автотоваров"
+                            "class": "fallback services",
+                            "name": "Ведущие праздников и мероприятий"
                         },
                         {
-                            "class": "tire fitting",
-                            "name": "Шиномонтаж"
+                            "class": "concert hall",
+                            "name": "Караоке-клуб"
                         }
                     ],
                     "Hours": {
-                        "text": "пн-сб 09:00–19:00",
+                        "text": "пн-чт 12:00–23:00; пт,сб 12:00–04:00; вс 12:00–23:00",
                         "Availabilities": [
                             {
                                 "Intervals": [
                                     {
-                                        "from": "09:00:00",
-                                        "to": "19:00:00"
+                                        "from": "12:00:00",
+                                        "to": "23:00:00"
                                     }
                                 ],
                                 "Monday": true,
                                 "Tuesday": true,
                                 "Wednesday": true,
-                                "Thursday": true,
+                                "Thursday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "12:00:00",
+                                        "to": "04:00:00"
+                                    }
+                                ],
                                 "Friday": true,
                                 "Saturday": true
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    37.544496,
-                    55.734016
-                ]
-            },
-            "properties": {
-                "name": "Tolex Tuning",
-                "description": "Бережковская наб., 36, Москва, Россия",
-                "boundedBy": [
-                    [
-                        37.543461,
-                        55.733442
-                    ],
-                    [
-                        37.54551,
-                        55.734597
-                    ]
-                ],
-                "uri": "ymapsbm1://org?oid=1045477921",
-                "CompanyMetaData": {
-                    "id": "1045477921",
-                    "name": "Tolex Tuning",
-                    "address": "Москва, Бережковская набережная, 36",
-                    "url": "http://center-toyota.ru/?utm_campaign=organik&utm_medium=mosfilm_map&utm_source=yandex",
-                    "Phones": [
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (495) 241-21-02"
-                        }
-                    ],
-                    "Categories": [
-                        {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт АКПП"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт двигателей"
-                        }
-                    ],
-                    "Hours": {
-                        "text": "ежедневно, 09:00–21:00",
-                        "Availabilities": [
-                            {
-                                "Intervals": [
-                                    {
-                                        "from": "09:00:00",
-                                        "to": "21:00:00"
-                                    }
-                                ],
-                                "Everyday": true
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.010434,
-                    54.816014
-                ]
-            },
-            "properties": {
-                "name": "Регион67",
-                "description": "ул. Маршала Ерёменко, 21Е, Смоленск, Россия",
-                "boundedBy": [
-                    [
-                        32.006623,
-                        54.81362
-                    ],
-                    [
-                        32.014834,
-                        54.818361
-                    ]
-                ],
-                "uri": "ymapsbm1://org?oid=1729671703",
-                "CompanyMetaData": {
-                    "id": "1729671703",
-                    "name": "Регион67",
-                    "address": "Смоленск, улица Маршала Ерёменко, 21Е",
-                    "url": "http://autoregion67.ru/",
-                    "Phones": [
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (4812) 60-87-89"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (910) 788-87-89"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (910) 789-67-89"
-                        }
-                    ],
-                    "Categories": [
-                        {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт двигателей"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Магазин автозапчастей и автотоваров"
-                        }
-                    ],
-                    "Hours": {
-                        "text": "пн-пт 09:00–19:00",
-                        "Availabilities": [
-                            {
-                                "Intervals": [
-                                    {
-                                        "from": "09:00:00",
-                                        "to": "19:00:00"
-                                    }
-                                ],
-                                "Monday": true,
-                                "Tuesday": true,
-                                "Wednesday": true,
-                                "Thursday": true,
-                                "Friday": true
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    32.83476,
-                    53.971461
-                ]
-            },
-            "properties": {
-                "name": "АвтоДом",
-                "description": "Большая Смоленская ул., 139А, Рославль, Россия",
-                "boundedBy": [
-                    [
-                        32.830477,
-                        53.969051
-                    ],
-                    [
-                        32.838688,
-                        53.973892
-                    ]
-                ],
-                "uri": "ymapsbm1://org?oid=1005929593",
-                "CompanyMetaData": {
-                    "id": "1005929593",
-                    "name": "АвтоДом",
-                    "address": "Смоленская область, Рославль, Большая Смоленская улица, 139А",
-                    "url": "https://avtodom-bolshaja-smolenskaja-ulitsa.clients.site/",
-                    "Phones": [
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (910) 711-66-96"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (910) 719-40-76"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (910) 710-34-44"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (915) 638-01-76"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (915) 647-85-86"
-                        }
-                    ],
-                    "Categories": [
-                        {
-                            "class": "auto",
-                            "name": "Магазин автозапчастей и автотоваров"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Автостёкла"
-                        }
-                    ],
-                    "Hours": {
-                        "text": "пн-пт 09:00–18:00; сб 09:00–17:00; вс 10:00–15:00",
-                        "Availabilities": [
-                            {
-                                "Intervals": [
-                                    {
-                                        "from": "09:00:00",
-                                        "to": "18:00:00"
-                                    }
-                                ],
-                                "Monday": true,
-                                "Tuesday": true,
-                                "Wednesday": true,
-                                "Thursday": true,
-                                "Friday": true
                             },
                             {
                                 "Intervals": [
                                     {
-                                        "from": "09:00:00",
-                                        "to": "17:00:00"
-                                    }
-                                ],
-                                "Saturday": true
-                            },
-                            {
-                                "Intervals": [
-                                    {
-                                        "from": "10:00:00",
-                                        "to": "15:00:00"
+                                        "from": "12:00:00",
+                                        "to": "23:00:00"
                                     }
                                 ],
                                 "Sunday": true
@@ -343,61 +116,215 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    37.57542,
-                    55.698902
+                    31.240413,
+                    58.531708
                 ]
             },
             "properties": {
-                "name": "Приличный сервис",
-                "description": "ул. Вавилова, 21, Москва, Россия",
+                "name": "Барашки",
+                "description": "ул. Ломоносова, 22/2, Великий Новгород, Россия",
                 "boundedBy": [
                     [
-                        37.571606,
-                        55.696626
+                        31.235752,
+                        58.529581
                     ],
                     [
-                        37.579816,
-                        55.701262
+                        31.243963,
+                        58.533875
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=75048868288",
+                "uri": "ymapsbm1://org?oid=174936400201",
                 "CompanyMetaData": {
-                    "id": "75048868288",
-                    "name": "Приличный сервис",
-                    "address": "Москва, улица Вавилова, 21",
-                    "url": "http://p-serv.ru/",
+                    "id": "174936400201",
+                    "name": "Барашки",
+                    "address": "Великий Новгород, улица Ломоносова, 22/2",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (495) 182-12-72"
+                            "formatted": "+7 (8162) 55-53-22"
                         },
                         {
                             "type": "phone",
-                            "formatted": "+7 (495) 255-03-63"
+                            "formatted": "+7 (8162) 15-01-50"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
+                            "class": "restaurants",
+                            "name": "Ресторан"
                         },
                         {
-                            "class": "tire fitting",
-                            "name": "Шиномонтаж"
+                            "class": "malls",
+                            "name": "Товары для дачного отдыха и пикника"
                         },
                         {
-                            "class": "auto",
-                            "name": "Автостёкла"
+                            "class": "fallback services",
+                            "name": "Доставка еды и обедов"
                         }
                     ],
                     "Hours": {
-                        "text": "ежедневно, 09:00–20:00",
+                        "text": "пн-чт 12:00–23:00; пт-вс 12:00–00:00",
                         "Availabilities": [
                             {
                                 "Intervals": [
                                     {
-                                        "from": "09:00:00",
-                                        "to": "20:00:00"
+                                        "from": "12:00:00",
+                                        "to": "23:00:00"
+                                    }
+                                ],
+                                "Monday": true,
+                                "Tuesday": true,
+                                "Wednesday": true,
+                                "Thursday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "12:00:00",
+                                        "to": "00:00:00"
+                                    }
+                                ],
+                                "Friday": true,
+                                "Saturday": true,
+                                "Sunday": true
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.605427,
+                    48.800896
+                ]
+            },
+            "properties": {
+                "name": "Барашки",
+                "description": "городской округ Волгоград, Тракторозаводский район, площадь Дзержинского, 1Б",
+                "boundedBy": [
+                    [
+                        44.600653,
+                        48.796959
+                    ],
+                    [
+                        44.608864,
+                        48.802383
+                    ]
+                ],
+                "uri": "ymapsbm1://org?oid=87928560628",
+                "CompanyMetaData": {
+                    "id": "87928560628",
+                    "name": "Барашки",
+                    "address": "городской округ Волгоград, Тракторозаводский район, площадь Дзержинского, 1Б",
+                    "Phones": [
+                        {
+                            "type": "phone",
+                            "formatted": "+7 (8442) 76-70-01"
+                        }
+                    ],
+                    "Categories": [
+                        {
+                            "class": "cafe",
+                            "name": "Кафе"
+                        },
+                        {
+                            "class": "restaurants",
+                            "name": "Ресторан"
+                        }
+                    ],
+                    "Hours": {
+                        "text": "пн-чт 11:00–23:00; пт,сб 11:00–00:00; вс 11:00–23:00",
+                        "Availabilities": [
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "11:00:00",
+                                        "to": "23:00:00"
+                                    }
+                                ],
+                                "Monday": true,
+                                "Tuesday": true,
+                                "Wednesday": true,
+                                "Thursday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "11:00:00",
+                                        "to": "00:00:00"
+                                    }
+                                ],
+                                "Friday": true,
+                                "Saturday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "11:00:00",
+                                        "to": "23:00:00"
+                                    }
+                                ],
+                                "Sunday": true
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.905752,
+                    55.751857
+                ]
+            },
+            "properties": {
+                "name": "Живые барашки",
+                "description": "Носовихинское ш., 150, микрорайон Салтыковка, Балашиха, Россия",
+                "boundedBy": [
+                    [
+                        37.901647,
+                        55.749542
+                    ],
+                    [
+                        37.909857,
+                        55.754172
+                    ]
+                ],
+                "uri": "ymapsbm1://org?oid=65050224365",
+                "CompanyMetaData": {
+                    "id": "65050224365",
+                    "name": "Живые барашки",
+                    "address": "Московская область, Балашиха, микрорайон Салтыковка, Носовихинское шоссе, 150",
+                    "Phones": [
+                        {
+                            "type": "phone",
+                            "formatted": "+7 (999) 829-45-49"
+                        },
+                        {
+                            "type": "phone",
+                            "formatted": "+7 (925) 628-15-82"
+                        }
+                    ],
+                    "Categories": [
+                        {
+                            "name": "Сельскохозяйственная продукция"
+                        }
+                    ],
+                    "Hours": {
+                        "text": "ежедневно, 06:00–23:00",
+                        "Availabilities": [
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "06:00:00",
+                                        "to": "23:00:00"
                                     }
                                 ],
                                 "Everyday": true
@@ -412,61 +339,56 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    37.597196,
-                    55.736803
+                    34.000266,
+                    44.402704
                 ]
             },
             "properties": {
-                "name": "Фсервис",
-                "description": "Турчанинов пер., 6, стр. 2, Москва, Россия",
+                "name": "Барашки",
+                "description": "Советская ул., 27А, п. г. т. Симеиз, Россия",
                 "boundedBy": [
                     [
-                        37.593093,
-                        55.734785
+                        33.998134,
+                        44.401195
                     ],
                     [
-                        37.601304,
-                        55.739417
+                        34.001835,
+                        44.404395
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=1059365917",
+                "uri": "ymapsbm1://org?oid=1718678965",
                 "CompanyMetaData": {
-                    "id": "1059365917",
-                    "name": "Фсервис",
-                    "address": "Москва, Турчанинов переулок, 6, стр. 2",
-                    "url": "http://www.fservis.ru/",
+                    "id": "1718678965",
+                    "name": "Барашки",
+                    "address": "Республика Крым, городской округ Ялта, посёлок городского типа Симеиз, Советская улица, 27А",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (495) 998-01-11"
-                        },
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (495) 978-88-66"
+                            "formatted": "+7 (978) 114-86-84"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
+                            "class": "cafe",
+                            "name": "Кафе"
                         },
                         {
-                            "class": "tire fitting",
-                            "name": "Шиномонтаж"
+                            "class": "restaurants",
+                            "name": "Ресторан"
                         },
                         {
-                            "class": "auto",
-                            "name": "Магазин автозапчастей и автотоваров"
+                            "class": "bars",
+                            "name": "Бар, паб"
                         }
                     ],
                     "Hours": {
-                        "text": "ежедневно, 08:00–18:00",
+                        "text": "ежедневно, 10:00–23:00",
                         "Availabilities": [
                             {
                                 "Intervals": [
                                     {
-                                        "from": "08:00:00",
-                                        "to": "18:00:00"
+                                        "from": "10:00:00",
+                                        "to": "23:00:00"
                                     }
                                 ],
                                 "Everyday": true
@@ -481,60 +403,120 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    55.956819,
-                    52.967668
+                    77.088133,
+                    42.650473
                 ]
             },
             "properties": {
-                "name": "FIT SERVICE",
-                "description": "Смоленская ул., 198/9, Мелеуз, Россия",
+                "name": "Барашек",
+                "description": "Советская ул., 65, Чолпон-Ата, Киргизия",
                 "boundedBy": [
                     [
-                        55.952654,
-                        52.965164
+                        77.084129,
+                        42.64754
                     ],
                     [
-                        55.960865,
-                        52.970121
+                        77.09234,
+                        42.653601
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=119140281987",
+                "uri": "ymapsbm1://org?oid=62583656570",
                 "CompanyMetaData": {
-                    "id": "119140281987",
-                    "name": "FIT SERVICE",
-                    "address": "Республика Башкортостан, Мелеуз, Смоленская улица, 198/9",
-                    "url": "https://meleuz.fitauto.ru/?utm_campaign=priority&utm_medium=maps&utm_source=yandex",
+                    "id": "62583656570",
+                    "name": "Барашек",
+                    "address": "Иссык-Кульский район, Чолпон-Ата, Советская улица, 65",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (963) 133-55-97"
+                            "formatted": "+996 3943 421 85"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
+                            "class": "restaurants",
+                            "name": "Ресторан"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.830699,
+                    53.679119
+                ]
+            },
+            "properties": {
+                "name": "Барашка",
+                "description": "Калючинская ул., 23, Гродно, Беларусь",
+                "boundedBy": [
+                    [
+                        23.826447,
+                        53.676655
+                    ],
+                    [
+                        23.834658,
+                        53.68153
+                    ]
+                ],
+                "uri": "ymapsbm1://org?oid=192146884517",
+                "CompanyMetaData": {
+                    "id": "192146884517",
+                    "name": "Барашка",
+                    "address": "Гродно, Калючинская улица, 23",
+                    "url": "http://barashka.by/",
+                    "Phones": [
+                        {
+                            "type": "phone",
+                            "formatted": "+375 29 555-51-34"
+                        }
+                    ],
+                    "Categories": [
+                        {
+                            "class": "restaurants",
+                            "name": "Ресторан"
                         },
                         {
-                            "class": "auto",
-                            "name": "Магазин автозапчастей и автотоваров"
-                        },
-                        {
-                            "class": "tire fitting",
-                            "name": "Шиномонтаж"
+                            "class": "cafe",
+                            "name": "Кафе"
                         }
                     ],
                     "Hours": {
-                        "text": "ежедневно, 09:00–21:00",
+                        "text": "пн-чт 12:00–23:00; пт,сб 12:00–01:00; вс 12:00–23:00",
                         "Availabilities": [
                             {
                                 "Intervals": [
                                     {
-                                        "from": "09:00:00",
-                                        "to": "21:00:00"
+                                        "from": "12:00:00",
+                                        "to": "23:00:00"
                                     }
                                 ],
-                                "Everyday": true
+                                "Monday": true,
+                                "Tuesday": true,
+                                "Wednesday": true,
+                                "Thursday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "12:00:00",
+                                        "to": "01:00:00"
+                                    }
+                                ],
+                                "Friday": true,
+                                "Saturday": true
+                            },
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "12:00:00",
+                                        "to": "23:00:00"
+                                    }
+                                ],
+                                "Sunday": true
                             }
                         ]
                     }
@@ -546,108 +528,41 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    37.382714,
-                    55.727389
+                    37.817335,
+                    55.564896
                 ]
             },
             "properties": {
-                "name": "АвтоСтарт БМВ техцентр",
-                "description": "ул. Горбунова, 12, корп. 2, стр. 2, Москва, Россия",
+                "name": "Барашки Живые",
+                "description": "Первомайская ул., 158А, корп. 2, д. Мисайлово, Россия",
                 "boundedBy": [
                     [
-                        37.378414,
-                        55.724748
+                        37.80241,
+                        55.547061
                     ],
                     [
-                        37.386624,
-                        55.729382
+                        37.841208,
+                        55.57177
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=1488782278",
+                "uri": "ymapsbm1://org?oid=63944276530",
                 "CompanyMetaData": {
-                    "id": "1488782278",
-                    "name": "АвтоСтарт БМВ техцентр",
-                    "address": "Москва, улица Горбунова, 12, корп. 2, стр. 2",
-                    "url": "https://bmwin.ru/?utm_campaign=map_banner&utm_medium=cpa&utm_source=yandex_maps",
+                    "id": "63944276530",
+                    "name": "Барашки Живые",
+                    "address": "Московская область, Ленинский городской округ, деревня Мисайлово, Первомайская улица, 158А, корп. 2",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (495) 150-69-66"
+                            "formatted": "+7 (968) 884-54-50"
+                        },
+                        {
+                            "type": "phone",
+                            "formatted": "+7 (965) 240-37-35"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "tire fitting",
-                            "name": "Шиномонтаж"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт двигателей"
-                        }
-                    ],
-                    "Hours": {
-                        "text": "ежедневно, 09:00–21:00",
-                        "Availabilities": [
-                            {
-                                "Intervals": [
-                                    {
-                                        "from": "09:00:00",
-                                        "to": "21:00:00"
-                                    }
-                                ],
-                                "Everyday": true
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    37.566051,
-                    55.715114
-                ]
-            },
-            "properties": {
-                "name": "Garage 365 Car service & Detailing",
-                "description": "Москва, мост Лужники",
-                "boundedBy": [
-                    [
-                        37.554996,
-                        55.707228
-                    ],
-                    [
-                        37.566701,
-                        55.715778
-                    ]
-                ],
-                "uri": "ymapsbm1://org?oid=65665158443",
-                "CompanyMetaData": {
-                    "id": "65665158443",
-                    "name": "Garage 365 Car service & Detailing",
-                    "address": "Москва, мост Лужники",
-                    "url": "http://garage365.ru/",
-                    "Phones": [
-                        {
-                            "type": "phone",
-                            "formatted": "+7 (499) 322-30-90"
-                        }
-                    ],
-                    "Categories": [
-                        {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Детейлинг"
+                            "name": "Животноводческое хозяйство"
                         }
                     ],
                     "Hours": {
@@ -667,57 +582,104 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.090086,
-                    54.773678
+                    42.716522,
+                    43.904417
                 ]
             },
             "properties": {
-                "name": "Вираж",
-                "description": "ул. Попова, 7А, Смоленск, Россия",
+                "name": "Барашка",
+                "description": "Курортный бул., 2Д, Кисловодск, Россия",
                 "boundedBy": [
                     [
-                        32.086097,
-                        54.771398
+                        42.712341,
+                        43.901322
                     ],
                     [
-                        32.094308,
-                        54.776145
+                        42.720551,
+                        43.907258
                     ]
                 ],
-                "uri": "ymapsbm1://org?oid=164398697034",
+                "uri": "ymapsbm1://org?oid=1040137832",
                 "CompanyMetaData": {
-                    "id": "164398697034",
-                    "name": "Вираж",
-                    "address": "Смоленск, улица Попова, 7А",
-                    "url": "https://virajavto.ru/",
+                    "id": "1040137832",
+                    "name": "Барашка",
+                    "address": "Ставропольский край, Кисловодск, Курортный бульвар, 2Д",
                     "Phones": [
                         {
                             "type": "phone",
-                            "formatted": "+7 (4812) 26-81-22"
+                            "formatted": "+7 (962) 493-93-93"
                         }
                     ],
                     "Categories": [
                         {
-                            "class": "auto",
-                            "name": "Автосервис, автотехцентр"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт автоэлектрики"
-                        },
-                        {
-                            "class": "auto",
-                            "name": "Ремонт АКПП"
+                            "class": "restaurants",
+                            "name": "Ресторан"
                         }
                     ],
                     "Hours": {
-                        "text": "ежедневно, 08:00–20:00",
+                        "text": "ежедневно, 11:30–23:00",
                         "Availabilities": [
                             {
                                 "Intervals": [
                                     {
-                                        "from": "08:00:00",
-                                        "to": "20:00:00"
+                                        "from": "11:30:00",
+                                        "to": "23:00:00"
+                                    }
+                                ],
+                                "Everyday": true
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.619276,
+                    50.588995
+                ]
+            },
+            "properties": {
+                "name": "Барашек",
+                "description": "Корочанская ул., 39В, Белгород, Россия",
+                "boundedBy": [
+                    [
+                        36.615223,
+                        50.586087
+                    ],
+                    [
+                        36.623434,
+                        50.591314
+                    ]
+                ],
+                "uri": "ymapsbm1://org?oid=33147398141",
+                "CompanyMetaData": {
+                    "id": "33147398141",
+                    "name": "Барашек",
+                    "address": "Белгород, Корочанская улица, 39В",
+                    "Phones": [
+                        {
+                            "type": "phone",
+                            "formatted": "+7 (905) 878-85-65"
+                        }
+                    ],
+                    "Categories": [
+                        {
+                            "class": "restaurants",
+                            "name": "Ресторан"
+                        }
+                    ],
+                    "Hours": {
+                        "text": "ежедневно, 10:00–00:00",
+                        "Availabilities": [
+                            {
+                                "Intervals": [
+                                    {
+                                        "from": "10:00:00",
+                                        "to": "00:00:00"
                                     }
                                 ],
                                 "Everyday": true
