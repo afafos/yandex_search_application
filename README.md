@@ -95,7 +95,7 @@ The search results will be saved in a file named `result.json` in the project di
 ## Workspace
 
 For more details about the application, check out the workspace:
-https://web.postman.co/workspace/yandex_search_app~5d85f047-a7be-48cd-86fe-6c1766f6716c/overview
+https://www.postman.com/afafos/workspace/yandex-search-app/overview
 
 
 
